@@ -2,10 +2,9 @@ setInterval(() => {
 
   const textarea1 = document.querySelector('[data-test="checklist-question-answer-text-input"]');
   const questionSection = document.querySelector('[data-test="question-s"]');
-  //const input = document.querySelector('[data-test="self-mark-input"]');
+
   const paper = document.querySelector('[data-test="checklist-tick"]')
-  //  const max = document.getElementsByClassName("styles__totalMarks___s5VVp")
-  //const nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
+
   if (questionSection && questionSection.getElementsByTagName("li").length > 0) {
     console.log("multiple choice")
     setInterval(() => {
@@ -112,7 +111,7 @@ setInterval(() => {
 
             let max = document.getElementsByClassName("styles__totalMarks___s5VVp")[0];
             let text = max.textContent;
-            text.split("")
+
             console.log(text[3])
 
             nativeInputValueSetter.call(input, parseInt(text[3]));
