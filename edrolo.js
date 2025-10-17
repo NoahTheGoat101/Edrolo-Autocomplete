@@ -141,13 +141,3 @@ setInterval(() => {
   }
 }, 5000);
 
-
-
-/*
-const sleep = (time) => new Promise((resolve, reject) => setTimeout(() => resolve()), time)
-
-console.log("1")
-await sleep(100)
-console.log("2")
-console.log("3")
-*/
