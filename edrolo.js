@@ -14,7 +14,7 @@ setInterval(() => {
       const randomIndex = Math.floor(Math.random() * 4);
       questionItems[randomIndex].click();
 
-      questionItems[randomIndex].click();
+
       if (!questionItems[0] || !questionItems[1]) {
         questionItems[1].click()
       }
